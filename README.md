@@ -3,13 +3,13 @@
 
 ## A few images of the final result
 
-![Image1](1.png)
+![Image1](1.PNG)
 
-![Image2](2.png)
+![Image2](2.PNG)
 
-![Image3](3.png)
+![Image3](https://github.com/mierkismantas/CovidData/blob/master/3.PNG)
 
-![Image4](4.png)
+![Image4](https://github.com/mierkismantas/CovidData/blob/master/4.PNG)
 
 ## Summary:
 

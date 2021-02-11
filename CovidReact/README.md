@@ -2,13 +2,13 @@
 # Project: Covid-19
 ## Summary:
 
-Frontend application that lists Covid 19 Tests information
+Frontend application that lists Covid-19 Tests information
 
 ## How to start
 
-	Navigate with CMD to root project folder (where this readme is located)
+Navigate with CMD to root project folder (where this readme is located)
 
-	In CMD use docker command or npm commands:
+In CMD use docker command or npm commands:
 
 ### docker-compose up -d --build
 
