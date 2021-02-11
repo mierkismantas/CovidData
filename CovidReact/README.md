@@ -1,14 +1,14 @@
-# Author: Mantas Mierkis 2021-02-10
-# Project: Covid19 tests
+# Author: Mantas Mierkis 2021-02
+# Project: Covid-19
 ## Summary:
 
 Frontend application that lists Covid 19 Tests information
 
-#How to start
+## How to start
 
-Navigate with CMD to root project folder (where this readme is located)
+	Navigate with CMD to root project folder (where this readme is located)
 
-In CMD use docker command or npm commands:
+	In CMD use docker command or npm commands:
 
 ### docker-compose up -d --build
 
@@ -34,40 +34,41 @@ Runs tests
 ### -------------------------------------------------------------------------------------
 
 ### Functionality:
-Authentication: username/password
 
-Page with data table, filtering, search, ordering, download, print, pagination (using tubular)
+	Authentication: username/password
 
-Page with chart and filters (SignalR realtime data update; data will be updated after new data insertion ['/input'])
+	Page with data table, filtering, search, ordering, download, print, pagination (using tubular)
 
-Page to add new data (can be accessed only when signed in [credentials: 'admin', 'admin'])
+	Page with chart and filters (SignalR realtime data update; data will be updated after new data insertion ['/input'])
 
-Header to control authentication and page navigation
+	Page to add new data (can be accessed only when signed in [credentials: 'admin', 'admin'])
 
-Requirements are met and the project is complete, but because there was a limited time interval, there are multiple 'todo' in the code.
+	Header to control authentication and page navigation
 
-If there is a need to improve this project, these 'todo' can help to point out improvement areas.
+	Requirements are met and the project is complete, but because there was a limited time interval, there are multiple 'todo' in the code.
+
+	If there is a need to improve this project, these 'todo' can help to point out improvement areas.
 
 ### Technical info:
 
-React
+	React
 
-State management solution (react-redux)
+	State management solution (react-redux)
 
-TypeScript
+	TypeScript
 
-Material UI (dark)
+	Material UI (dark)
 
-Indicates loading state when requests are in action
+	Indicates loading state when requests are in action
 
-Uses responsive components (Looks good on desktop and mobile)
+	Uses responsive components (Looks good on desktop and mobile)
 
-Has tests which check if App component can be rendered
+	Has tests which check if App component can be rendered
 
 # Tips:
 
-### Clean node packages
+	Clean node packages
 
-npm install rimraf -g
+		npm install rimraf -g
 
-rimraf node_modules
+		rimraf node_modules

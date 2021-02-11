@@ -1,30 +1,42 @@
-# Author: Mantas Mierkis 2021-02-10
-# Project: Covid19 tests
+# Author: Mantas Mierkis 2021-02
+# Project: Covid-19
+
+## A few images of the final result
+
+![Image1](1.png)
+
+![Image2](2.png)
+
+![Image3](3.png)
+
+![Image4](4.png)
+
 ## Summary:
 
-This web api is developed with Net Core .NET 5.0 to demonstrate crud operations using Entity Framework with Sql Server as backend.
+This web api is developed with Net Core .NET 5.0 to demonstrate crud operations using Entity Framework with Sql Server as a backend.
 
 Project contains two Readme files: 'Readme' (Backend) and 'CovidReact\Readme' (Frontend)
 
-How to start:
+## How to start:
 Navigate to root project folder (where this readme is located)
 
-1. Start SQL:
-    Navigate to MSSQL folder  
+	SQL
 
-	In CMD: docker-compose up  
+		Navigate to MSSQL folder  
 
-	SQL should start in the container
+		In CMD: docker-compose up  
 
-2. For now there is an issue with docker files for web api
+		SQL should start in the container
 
-    Open *.sln file
+	Web API (For now there is an issue with docker files for web api)
 
-	Start API project with IIS Express
+		Open *.sln file
 
-	Initial start should take a while, database is prepopulated from .csv file
+		Start API project with IIS Express
 
-	Swagger should open (http://localhost:5001/index.html)
+		Initial start should take a while, database is prepopulated from .csv file
+
+		Swagger should open (http://localhost:5001/index.html)
 
 ## Functionality
 
@@ -52,10 +64,9 @@ Realtime chart updating is implemented using SignalR
 
 Swagger (API documentation)
 
-
 ## Tips:
 
-### Prepare database
+#### Prepare database
 
 Drop-Database
 Remove-Migration
