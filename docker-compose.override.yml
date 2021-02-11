@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  covidapi:
+    container_name: covidapi
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - 5001:5001
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro

@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+    
+  covidapi:
+    image: ${DOCKER_REGISTRY-}covidapi
+    build:
+      context: .
+      dockerfile: Dockerfile
