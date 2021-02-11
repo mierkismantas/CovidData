@@ -1,6 +1,8 @@
 # Author: Mantas Mierkis 2021-02-10
 # Project: Covid19 tests
-# Summary: Frontend application that lists Covid 19 Tests information
+## Summary:
+
+Frontend application that lists Covid 19 Tests information
 
 #How to start
 

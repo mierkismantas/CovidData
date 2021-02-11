@@ -1,6 +1,8 @@
 # Author: Mantas Mierkis 2021-02-10
 # Project: Covid19 tests
-# Summary: This web api is developed with Net Core .NET 5.0 to demonstrate crud operations using Entity Framework with Sql Server as backend.
+## Summary:
+
+This web api is developed with Net Core .NET 5.0 to demonstrate crud operations using Entity Framework with Sql Server as backend.
 
 Project contains two Readme files: 'Readme' (Backend) and 'CovidReact\Readme' (Frontend)
 
